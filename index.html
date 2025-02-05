@@ -54,14 +54,18 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>We Are Coming Soon!</h1>
-        <p>Thank you for your interest in Railhunter. Leave your details below, and we'll get back to you soon!</p>
-        <form action="https://formspree.io/f/yourformid" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-            <button type="submit">Submit</button>
+   <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">Send</button>
+
         </form>
     </div>
 </body>
